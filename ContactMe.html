@@ -15,8 +15,8 @@
         <fieldset>
             <h1>Feedback</h1>
 
-           Frst Name: <input type="text" placeholder="anonymous" name="fname" attribute="required"> <br>
-           Last Name: <input type="text" placeholder="anonymous" name="lname" attribute="required"> <br>
+           Frst Name: <input type="text" placeholder="anonymous" name="fname" attribute="required"> <br> <br>
+           Last Name: <input type="text" placeholder="anonymous" name="lname" attribute="required"> <br> <br>
            Email: <input type="email" placeholder="name@domain.com" name="email">
            <p>Do you recommend this website to others? <br> Yes:
             <input type="radio" name="yes" value="yes">
@@ -39,6 +39,15 @@
                 <input type="range" max="10" min="1" step="1" value="10">
         
             </p>
+            <p>What is Your Birthdate?
+                <input type="date" name="selectDate">
+            </p>
+            <p>At What Time Are You Completing This Survey?
+                <input type="time" name="inputTime">
+            </p>
+            <p> Please Input Your Telephone Number
+				<input type="tel" placeholder="(###) ###-####" pattern="\d{3}-\d{3}-\d{4}" name="inputTel">
+			</p>
             <p>Additional Comments:
                 <br>
                 <textarea name="comments" cols="20" rows="5"> </textarea>
