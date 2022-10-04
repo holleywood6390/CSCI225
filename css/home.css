@@ -1,0 +1,187 @@
+html{
+    padding: 3%;
+}
+body{
+    padding: 3%;
+}
+div {
+    display: block;
+}
+div.Schedule{
+    position: relative;
+    width: 40%;
+    top: 70px;
+    padding: 10% 0% 0% 0%;
+}
+div.contact{
+    position: relative;
+    top: 260px;
+    width: 40%;
+}
+div.portfolio{
+    position: relative;
+    width: 50%;
+    top: 275px;
+}
+
+div.navbar {
+    position: fixed;
+    top: 7%;
+    left: 0px;
+    right: 0px;
+    /* background-color: hsla(60, 100%, 50%, 0.5); */
+    height: 25px;
+    background-image: linear-gradient(red, white, blue);
+}
+
+div.Introduction {
+    position: fixed;
+    width: 100%;
+    margin: 0% 0% 0% 0%;
+    /* background-color: bisque; */
+}
+
+footer {
+    position: fixed;
+    background-color: aqua;
+    bottom: 2px;
+    width: 100%;
+    margin-left: -117px;
+    opacity: 50%;
+}
+
+.Introduction p {
+    width: 50%;
+    float: left;
+}
+
+.Introduction img {
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    height: 375x;
+    width: 275px;
+}
+
+div.assignment {
+    position: absolute;
+    top: 28%;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategrey;
+    font-weight: bolder;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+ul,
+li {
+    font-weight: 700;
+    color: blue;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0.3em 0.3em 0.1em burlywood;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    padding: 2%;
+    margin: 0;
+    border-style: dotted;
+    border-radius: 25px;
+}
+
+ul,
+li {
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+body {
+    background-image: url("../img/Old-Paper.jpg");
+    background-size: cover;
+}
+
+.portfolio {
+    border-right: 3px solid orangered;
+    border-bottom: 3px solid orangered;
+}
+
+
+#contactInfo {
+    border-right: 3px solid orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.schedule {
+    border-right: 3px solid orangered;
+    border-bottom: 3px solid orangered;
+}
+
+h1{
+    border-style:ridge;
+    border-radius: 35px;
+}
+
+p::first-letter{
+    font-size: 130%;
+    text-transform: uppercase;
+    color: blue;
+}
+
+div.Schedule table{
+border: 5px dashed;
+    padding: 0%;
+    vertical-align: middle;
+    empty-cells: show;
+    text-align: center;
+    color: hsl(250, 80%, 20%);
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(230, 189, 140);
+}
+
+h1 ~p{
+    opacity: 1;
+    transition: ease-in-out 2s, all 2s;
+}
+
+h1:hover{
+    transform: translate(10px,10px);
+}
+
+h1:active{
+    color: red;
+}
+
+h1 +p{
+    background-color: azure;
+}
