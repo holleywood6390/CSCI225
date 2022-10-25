@@ -1,0 +1,87 @@
+body {
+    margin: 0%;
+}
+
+#swirl {
+    position: absolute;
+    left: 700px;
+    top: 0;
+    border-radius: 25px;
+}
+
+#BMIbar {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    z-index: 2;
+}
+
+#lefttext {
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    z-index: 3;
+}
+
+#midlefttext {
+    position: absolute;
+    top: 60px;
+    left: 850px;
+    z-index: 3;
+}
+
+#midrighttext {
+    position: absolute;
+    top: 60px;
+    left: 1050px;
+    z-index: 3;
+}
+
+#righttext {
+    position: absolute;
+    top: 60px;
+    left: 1250px;
+    z-index: 3;
+}
+
+#mii {
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    z-index: 3;
+    height: 390px;
+}
+
+#slider {
+    position: absolute;
+    left: 900px;
+    top: 25px;
+    opacity: 60%;
+    z-index: 4;
+}
+
+div.inputarea {
+    position: absolute;
+    width: 500px;
+    top: 0;
+    padding-right: 100px;
+    height: auto;
+}
+
+div.inputarea p {
+    margin: 25px auto;
+    padding-left: 15px;
+}
+
+div.inputarea {
+    border-radius: 25px;
+}
+
+h1 {
+    margin: 15px;
+}
+
+html {
+    padding: 2%;
+    background-color: beige;
+}
